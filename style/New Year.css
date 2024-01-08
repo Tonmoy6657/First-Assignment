@@ -37,12 +37,13 @@ max-width: 259px;
 max-height: 40px;
 padding-left: 200px;
 }
-/* Main' 1st section: "discount" */
+/* Main's 1st section: "discount" */
 
 .discount{
     margin: 0px 398.1 px 120px 399px;
     text-align: center;
     font-family: Inter;
+    background-color: #FFF;
 }
 .discount-amount{
     color: #F00;
@@ -66,4 +67,87 @@ img{
     display: block;
     margin: auto;
 }
-    
+/* Main's 2nd section: "party" */
+.party{
+    justify-content: space-between;
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 83%;
+    height: 600px;
+    margin: 120px 350px ;
+}
+
+.party-text{
+    position: absolute;
+}
+
+.party-text h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    width: 642px;
+    height: 176px;
+    margin: 126px 552px 24px 126px;
+}
+
+.party-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 697px;
+    height: 60px;
+    margin: 0px 497px 48px 126px;
+}
+
+.party-text button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    width: 120px;
+    height: 50px;
+    margin: 0px 1059px 0px 158px;
+    background-color: #070211;
+}
+
+img{
+    width: 320px;
+    height: 465px;
+    margin: 68px 134px 67px 862px;
+}
+/* Main's 3rd section: "Event" */
+.event{
+    text-align: center;
+    background-color:#ff00001a;
+    width: 82.5%;
+    height: 482px;
+    margin: 0px 140px 120px 140px ;
+   
+}
+.place-schedule{
+    margin: 100px 386px 50px 385px;
+}
+.place-schedule p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.event-color{
+    color: #F00;
+}
+button{
+    color: #FFF;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F00;
+}
+
+
