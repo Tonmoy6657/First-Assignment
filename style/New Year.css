@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+    height:600px;
+    width:82.5%
+    max: width 1320px;
+    margin: 0 auto;
+
+}
+.banner-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-text h1{
+font-size: 72px;
+font-weight: 900;
+max-width: 632px;
+max-height: 190px;
+}
+.banner-text h5{
+font-size: 32px;
+font-weight: 400;
+}
+
