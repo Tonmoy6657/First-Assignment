@@ -8,26 +8,62 @@ header{
     height:600px;
     width:82.5%
     max: width 1320px;
-    margin: 0 auto;
+    margin:50px auto 120px auto;
+    position: relative;
+
 
 }
 .banner-text{
-    color: #FFF;
+color: rgb(43, 33, 33);
     text-align: center;
     font-family: Merriweather;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
 }
 .banner-text h1{
 font-size: 72px;
 font-weight: 900;
 max-width: 632px;
 max-height: 190px;
+
 }
 .banner-text h5{
 font-size: 32px;
 font-weight: 400;
+max-width: 259px;
+max-height: 40px;
+padding-left: 200px;
 }
+/* Main' 1st section: "discount" */
 
+.discount{
+    margin: 0px 398.1 px 120px 399px;
+    text-align: center;
+    font-family: Inter;
+}
+.discount-amount{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+.discount-category h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px auto 8px auto;
+}
+.discount-category h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+img{
+    width: 803px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+    
