@@ -313,6 +313,60 @@ button{
    
 }
 
+/* Main's 7th section: "subscribe" */
 
-
-
+.subscribe{
+    width: 82.5%;
+    max-width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #ff00000d;
+}
+.subscribe-pic{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin: 120px 585px 40px 530px;
+    padding-top: 80px;
+}
+.subscribe-text{
+    text-align: center;
+    font-family: Inter;
+}
+.subscribe-text h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 5px;
+}
+.subscribe-text p{
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.subscribe-button{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    justify-content: space-between;
+    margin: 0px 336px 80px 336px;
+    align-items: center;
+    
+    
+}
+.subscribe-button button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    position: absolute;
+}
+.subscribe-button input{
+    width: 431px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    position: relative;
+}
