@@ -370,3 +370,57 @@ button{
     border-radius: 50px 0px 0px 50px;
     position: relative;
 }
+/* footer */
+.footer{
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+}
+.footer-all{
+    justify-content: space-between;
+    display: flex;
+    
+    text-align: justify;
+}
+.footer-contact{
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+}
+.number{
+margin: 120px 1005px 449px 600px;
+
+}
+.email{
+    margin:5px 1002px 417px 600px;
+}
+.footer-address{
+    font-size: 24px;
+    font-weight: 500;
+    width: 375px;
+    height: 80px;
+    margin: 120px 1085px 409px 140px;
+    text-align: left;
+}
+.footer-pic{
+    justify-content:center;
+    gap: 10px;
+    margin: 30px 632px 30px 640px;
+
+
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 50px 0px 120px 140px;
+}
+.footer-right button{
+font-size: 24px;
+font-weight: 500;
+margin:50px 140px 120px 880px;
+}
